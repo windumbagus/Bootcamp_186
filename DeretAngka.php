@@ -55,6 +55,16 @@ class DeretAngka{
 		}
 		return $hasil;
 	}
+//987654321
+	public function getDecrement($n){
+		$hasil= array();
+		$data=$n;
+		for ($i=0; $i < $n; $i++) { 
+			$hasil[$i] =$data;
+			$data=$data-1;
+		}
+		return $hasil;
+	}
 
 	//1 3 5 7 9
 	public function getIncrementBy2($n){
