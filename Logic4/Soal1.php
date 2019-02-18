@@ -16,7 +16,7 @@ class Soal extends Matrix{
 	$d=$this->deret->getIncrement($this->kolom);	
 		for($i = 0; $i < $this->baris; $i++){
 			for($j = 0; $j < $this->kolom; $j++){
-                if ($i+$j>=($this->kolom-1)/2 && $i+($this->kolom-1)/2-$j>=0){
+                if ($i+$j>=($this->kolom-1)/2 && $i-$j+($this->kolom-1)/2>=0){
                     $this->matrix[$i][$j] = "".$d[$i+$j-($this->kolom-1)/2];
                 }
 				
