@@ -57,7 +57,7 @@ class DeretAngka{
 	}
 //987654321
 	public function getDecrement($n){
-		$hasil= array();
+		$hasil= array();	
 		$data=$n;
 		for ($i=0; $i < $n; $i++) { 
 			$hasil[$i] =$data;
